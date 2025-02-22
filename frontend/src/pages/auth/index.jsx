@@ -42,7 +42,7 @@ function Index() {
 
   useEffect(() => {
     if (isSuccess && data) {
-      navigate("/dashboard");
+      navigate("/");
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isSuccess, data]);
