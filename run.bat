@@ -1,8 +1,15 @@
 @echo off
-echo Starting backend...
-start cmd /k "cd backend && npm run dev"
 
+:: Start backend
+echo Starting backend...
+cd backend
+start cmd /k "npm run serve"
+
+:: Wait for 3 seconds
 timeout /t 3 /nobreak
 
+:: Start frontend
 echo Starting frontend...
-start cmd /k "cd frontend && npm run dev" 
+cd ..
+cd frontend
+start cmd /k "npm run start" 
