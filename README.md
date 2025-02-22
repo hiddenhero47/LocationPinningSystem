@@ -23,6 +23,11 @@ cd backend
 npm install
 ```
 
+2b. Copy the example environment file
+```
+cp .env.example .env
+```
+
 3. Start the development server for backend
 ```
 cd backend
@@ -54,6 +59,11 @@ cd backend
 npm install
 ```
 
+2b. Copy the example environment file
+```
+cp .env.example .env
+```
+
 3. Start the development server for backend
 ```
 cd backend
@@ -70,6 +80,18 @@ npm install
 ```
 cd frontend
 npm run dev
+```
+
+### Run both backend and frontend
+
+for mac/linux
+```
+./run.sh
+```
+
+for windows
+```
+run.bat
 ```
 
 ### Using Docker
@@ -120,9 +142,9 @@ sudo chown -R $USER /usr/local/lib/node_modules
 
 ## Additional Resources
 
-- [Documentation](link-to-docs)
-- [Contributing Guidelines](link-to-contributing)
-- [Issue Tracker](link-to-issues)
+- [Documentation](https://github.com/hiddenhero47/LocationPinningSystem#readme)
+- [Contributing Guidelines](https://github.com/hiddenhero47/LocationPinningSystem/blob/main/CONTRIBUTING.md)
+- [Issue Tracker](https://github.com/hiddenhero47/LocationPinningSystem/issues)
 
 ## Support
 
