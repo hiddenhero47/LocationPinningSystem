@@ -43,8 +43,7 @@
     "start": "PORT=3002 react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev-serve": "npm run serve --prefix backend"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
