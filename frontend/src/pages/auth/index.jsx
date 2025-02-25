@@ -42,7 +42,7 @@ function Index() {
 
   useEffect(() => {
     if (isSuccess && data) {
-      navigate("/");
+      navigate("/dashboard");
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [isSuccess, data]);
@@ -51,7 +51,7 @@ function Index() {
     <Container>
       <PersonalDetailsWrapper onSubmit={handleSubmit}>
         <div className="w-full flex items-center justify-between flex-wrap">
-          <button type="button" className="btn_back flex items-center">
+          <button type="button" className="btn_back flex items-center" onClick={() => navigate("/")}>
             <i>
               <AiFillHome size={22} />
             </i>
